@@ -100,7 +100,7 @@ resource "azure_network_security_group" "nic_windows" {
         priority = 100
         direction = "Inbound"
         access = "Allow"
-        protocol = "RDP"
+        protocol = "Rdp"
         source_port_range = "*"
         destination_port_range = 3389
         source_address_prefix = "*"
